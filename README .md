@@ -1,6 +1,4 @@
-# Octra terminal client
-
-## How to install and run transactions (step by step)
+# Octra terminal client - How to install and run transactions (step by step)
 
 1. ## open terminal in gitpod and install Python
 
