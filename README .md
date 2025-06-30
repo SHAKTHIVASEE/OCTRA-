@@ -50,4 +50,6 @@ octBiACKTeoxody5Qr6ezmjGULYcgHM7X93oZFoWoPSHTxt
 
 octFjXfCRgWYpnnmNLLbVvzA1U8pbQEFZtFQRnjmNiUNvor
 
+## 7.  verify your transaction history on https://octrascan.io
+
 
