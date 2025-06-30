@@ -1,30 +1,14 @@
 # octra terminal client
 
-a terminal wallet reminiscent of dos-era tui interfaces — but built with modern asynchronous architecture
+## how to install and run transactions (step by step)
 
-## what it does
+1. open terminal in gitpod and install Python
 
-- shows your octra wallet balance and tx history  
-- lets you send one or many transactions  
-- exports your private key or full wallet file  
+```bash
+sudo apt install python3 python3-pip python3-venv python3-dev -y
+```
 
-## works on
-
-- linux  
-- mac  
-- windows (some features like clipboard may not work)
-
-## what you need
-
-- python 3.8 or higher  
-- internet connection  
-- your wallet file (private key)
-
-## how to install and run (step by step)
-
-1. open terminal  
-
-2. run these commands one by one:
+2. run these commands :
 
 ```bash
 git clone https://github.com/octra-labs/octra_pre_client.git
@@ -35,7 +19,12 @@ pip install -r requirements.txt
 cp wallet.json.example wallet.json
 ```
 
-3. open wallet.json and edit it (change placeholders to your wallet data):
+3. open wallet.json 
+```bash
+nano wallet.json
+```
+
+4. Edit it (change placeholders to your wallet data):
 
 ```json
 {
@@ -45,9 +34,17 @@ cp wallet.json.example wallet.json
 }
 ```
 
-3. run
+5. run to open frontend UI to make transaction
 
 ```bash
-./run.sh       # on linux/mac
-run.bat        # on windows
+./run.sh
 ```
+
+6. Now you can send transaction to other wallets, Some of my address given below to make transactions...
+
+octCNEFKoAi13tbERnj8UdwyUUneM5MacJKhPSh5Kkvdoeu
+octFrhYexg3h67DrBMuV1GGGTspPiHB1N8WL97HdyznxB15
+oct8heKLgiUtNUaJppBesFSCRpcY7ja1zKr5EzCNxozQrLK
+octBiACKTeoxody5Qr6ezmjGULYcgHM7X93oZFoWoPSHTxt
+octFjXfCRgWYpnnmNLLbVvzA1U8pbQEFZtFQRnjmNiUNvor
+octCNEFKoAi13tbERnj8UdwyUUneM5MacJKhPSh5Kkvdoeu
