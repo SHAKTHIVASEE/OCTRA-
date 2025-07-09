@@ -1,4 +1,4 @@
-# Octra terminal client - How to install and run transactions (step by step)
+# Octra terminal client - How to install and run transactions (step by step) & Make Private transactions...
 
 ## 1.  Open terminal in gitpod and install Python
 
@@ -38,7 +38,8 @@ nano wallet.json
 ./run.sh
 ```
 
-## 6.  Now you can send transaction to other wallets, Some of my address given below to make transactions...
+
+## 6.  Now you can send transaction to other wallets, Some of my address given below to make private transactions...
 
 octCNEFKoAi13tbERnj8UdwyUUneM5MacJKhPSh5Kkvdoeu
 
